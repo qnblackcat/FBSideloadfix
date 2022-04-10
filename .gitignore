@@ -1,0 +1,7 @@
+.DS_Store
+.theos
+packages
+Resources/*
+!Resources/.gitkeep
+Tweaks/*
+!Tweaks/.gitkeep
