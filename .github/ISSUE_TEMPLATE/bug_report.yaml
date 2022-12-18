@@ -59,12 +59,12 @@ body:
 
 - type: dropdown
   attributes:
-    label: Does the issue happen with the official YouTube from AppStore?
-    description: _Well, YouTube itself is buggy sometimes..._
+    label: Version
+    description: What version of our software are you running?
     multiple: false
     options:
-      - label: Yes, it does
-      - label: No, it doesn't
+      - label: 1.0.2 (Default)
+      - label: 1.0.3 (Edge)
   validations:
     required: true
 
