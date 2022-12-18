@@ -50,13 +50,6 @@ body:
   validations:
     required: true
 
-- type: textarea
-  attributes:
-    label: Are you using the newest version of uYouPlus? If not, why?
-    description: Developers spend time and effort to fix bugs & add improvements with every release. Why don't you update to the latest version before reporting about an issue?
-  validations:
-    required: true
-
   - type: textarea
     attributes:
       label: Crash log (if possible)
