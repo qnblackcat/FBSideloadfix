@@ -43,7 +43,7 @@ body:
   attributes:
     label: Steps To Reproduce The Issue(s)
     description: Please attach videos or screenshots if possible
-    placeholder: |
+    placeholder: 
   validations:
     required: true
 
