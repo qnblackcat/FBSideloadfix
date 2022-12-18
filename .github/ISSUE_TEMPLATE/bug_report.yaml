@@ -54,16 +54,17 @@ body:
   id: logs
   attributes:
     label: Crash log (if possible)
-    description: _If somehow the app crashes, you must provide the crash log. It can be found in your device's Settings App > Privacy > Analytics & Improvements > Analytics Data > Youtube-xxx-xxx.ips_
+    description: _If somehow the app crashes, **you must provide the crash log**. It can be found in your device's Settings App > Privacy > Analytics & Improvements > Analytics Data > Youtube-xxx-xxx.ips_
     render: shell
 
-- type: textarea
+- type: dropdown
   attributes:
     label: Are you using the newest version of uYouPlus? If not, why?
     description: _Developers spend time and effort to fix bugs & add improvements with every release. Why don't you update to the latest version before reporting about an issue?_
-    value: |
-        - Yes
-        - No, because...
+    multiple: false
+    options:
+      - Yes, I'm using the latest version of uYouPlus right now
+      - No, I'll explain at the end of the template
   validations:
     required: true
 
@@ -77,3 +78,11 @@ body:
       - Yes, It does
   validations:
     required: true
+
+- type: textarea
+  attributes:
+    label: Additional context
+    description:
+  validations:
+    required: false
+
