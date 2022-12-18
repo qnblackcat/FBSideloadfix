@@ -1,7 +1,7 @@
-name: 🐞 Bug
-description: File a bug/issue
-title: "[BUG] <title>"
-labels: [Bug, Needs Triage]
+name: Bug
+description: Make sure you complete the template. Otherwise, it will be closed without further explanation!
+title: "[Bug] (Replace this with your title)"
+labels: bug
 body:
 - type: checkboxes
   attributes:
@@ -10,12 +10,22 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
+      
+- type: checkboxes
+  attributes:
+    label: Have you read the [FAQ](https://github.com/qnblackcat/uYouPlus/wiki/FAQ)?
+    description: Please search to see if an issue already exists for the bug you encountered.
+    options:
+    - label: Yes, I read the FAQ
+      required: true
+      
 - type: textarea
   attributes:
     label: Current Behavior
     description: A concise description of what you're experiencing.
   validations:
     required: false
+    
 - type: textarea
   attributes:
     label: Expected Behavior
