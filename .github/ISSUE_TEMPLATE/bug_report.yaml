@@ -19,7 +19,7 @@ body:
     - label: Yes, I read the FAQ
       required: true
     
-- type: input
+- type: textarea
   attributes:
     label: Device info
     description: 
