@@ -51,6 +51,13 @@ body:
     required: true
 
 - type: textarea
+  id: logs
+  attributes:
+    label: Relevant log output
+    description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+    render: shell
+    
+- type: textarea
   attributes:
     label: Are you using the newest version of uYouPlus? If not, why?
     description: Developers spend time and effort to fix bugs & add improvements with every release. Why don't you update to the latest version before reporting about an issue?
@@ -68,9 +75,3 @@ body:
   validations:
     required: true
 
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
