@@ -22,7 +22,7 @@ body:
 - type: textarea
   attributes:
     label: Device info
-    description: |
+    description: 
     value: |
         - iOS/iPadOS version:
         - Device model:
