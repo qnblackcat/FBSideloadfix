@@ -60,7 +60,7 @@ body:
 - type: dropdown
   attributes:
     label: Does the issue happen with the official YouTube from AppStore?
-    description: _(Well, YouTube itself is buggy sometimes...)_
+    description: _Well, YouTube itself is buggy sometimes..._
     multiple: false
     options:
       - label: Yes, it does
