@@ -57,21 +57,9 @@ body:
   validations:
     required: true
 
-- type: dropdown
-  attributes:
-    label: Version
-    description: What version of our software are you running?
-    multiple: false
-    options:
-      - label: 1.0.2 (Default)
-      - label: 1.0.3 (Edge)
-  validations:
-    required: true
-
   - type: textarea
     attributes:
       label: Crash log (if possible)
       description: If somehow the app crashes, you must provide the crash log. It can be found in your device's Settings App > Privacy > Analytics & Improvements > Analytics Data > Youtube-xxx-xxx.ips
       render: shell
-  validations:
-    required: false
+
