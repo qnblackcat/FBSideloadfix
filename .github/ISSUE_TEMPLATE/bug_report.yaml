@@ -1,6 +1,6 @@
 name: Bug
 description: Make sure you complete the template. Otherwise, it will be closed without further explanation!
-title: "[Bug] (Replace this with your title)"
+title: "[Bug] <Replace this with your title>"
 labels: bug
 body:
 - type: checkboxes
@@ -35,7 +35,7 @@ body:
 - type: textarea
   attributes:
     label: Describe the bug
-    description: 
+    description: _Please attach videos or screenshots if possible_
   validations:
     required: true
 
@@ -82,7 +82,7 @@ body:
 - type: textarea
   attributes:
     label: Additional context
-    description:
+    description: _Um, anything else you want to say?_
   validations:
     required: false
 
