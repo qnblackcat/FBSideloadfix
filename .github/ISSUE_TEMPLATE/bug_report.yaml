@@ -36,9 +36,7 @@ body:
   attributes:
     label: Describe the bug
     description: _Please attach videos or screenshots if possible_
-    value: |
-        - t
-
+    render: markdown
   validations:
     required: true
 
@@ -50,6 +48,7 @@ body:
         1. 
         2. 
         3. 
+    render: markdown
   validations:
     required: true
 
