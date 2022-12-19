@@ -36,6 +36,7 @@ body:
   attributes:
     label: Describe the bug
     description: _Please attach videos or screenshots if possible_
+    value: 
   validations:
     required: true
 
