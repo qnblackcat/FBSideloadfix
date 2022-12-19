@@ -36,7 +36,9 @@ body:
   attributes:
     label: Describe the bug
     description: _Please attach videos or screenshots if possible_
-    value: 
+    value: |
+        - t
+
   validations:
     required: true
 
@@ -44,10 +46,10 @@ body:
   attributes:
     label: Steps to reproduce the issue
     description: _Please attach videos or screenshots if possible_
-    placeholder: |
-      1. 
-      2. 
-      3. 
+    value: |
+        1. 
+        2. 
+        3. 
   validations:
     required: true
 
