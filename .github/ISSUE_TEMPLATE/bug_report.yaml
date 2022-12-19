@@ -27,7 +27,7 @@ body:
         - iOS/iPadOS version:
         - Device model:
         - Sideload tool (Ex: AltStore, Sideloadly, TrollStore,...):
-        - The specific version of uYouPlus: _**latest** or **newest** is NOT a version number!!_
+        - The specific version of uYouPlus (latest or newest is NOT a version number!):
     render: markdown
   validations:
     required: true
@@ -85,4 +85,3 @@ body:
     description: _Um, anything else you want to say?_
   validations:
     required: false
-
