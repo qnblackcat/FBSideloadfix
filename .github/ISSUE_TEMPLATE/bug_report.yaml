@@ -6,7 +6,7 @@ body:
 - type: checkboxes
   attributes:
     label: Is there an existing issue for this?
-    description: _Please search to see if an issue already exists for the bug you encountered. **I Don\'t MAKE THIS TICK BOX FOR COSMETIC.**_
+    description: _Please search to see if an issue already exists for the bug you encountered. **I DON\'T MAKE THIS TICK BOX FOR COSMETIC.**_
     options:
     - label: I have searched the existing issues
       required: true
@@ -14,7 +14,7 @@ body:
 - type: checkboxes
   attributes:
     label: Have you read the FAQ?
-    description: _Make sure you actually visit the [**FAQ**](https://github.com/qnblackcat/uYouPlus/wiki/FAQ) page! **I Don\'t MAKE THIS TICK BOX FOR COSMETIC**_
+    description: _Make sure you actually visit the [**FAQ**](https://github.com/qnblackcat/uYouPlus/wiki/FAQ) page! **I DON\'T MAKE THIS TICK BOX FOR COSMETIC**_
     options:
     - label: Yes, I did read the FAQ
       required: true
@@ -27,7 +27,7 @@ body:
         - iOS/iPadOS version:
         - Device model:
         - Sideload tool (AltStore, Sideloadly, TrollStore,...):
-        - The specific version of uYouPlus (**latest** or **newest** is **NOT** a version number!):
+        - The specific version of uYouPlus (**latest or newest is NOT a version number!**):
   validations:
     required: true
 
@@ -73,8 +73,9 @@ body:
     description: _Well, YouTube itself is buggy sometimes..._
     multiple: false
     options:
-      - ❌ No, It doesn't
-      - ✅ Yes, It does
+      - _(Select an option)_
+      - ❌ No, I can't reproduce this issue in the official YouTube from AppStore 
+      - ✅ Yes, I can reproduce this issue in the official YouTube from AppStore 
   validations:
     required: true
 
